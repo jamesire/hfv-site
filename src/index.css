@@ -1,0 +1,61 @@
+@font-face {
+  font-family: A2StandardSans;
+  src: url("/fonts/A2\ Standard\ Sans\ Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: A2StandardSans;
+  src: url("/fonts/A2\ Standard\ Sans\ Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: A2StandardSans;
+  src: url("/fonts/A2\ Standard\ Sans\ Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: A2StandardSansCond;
+  src: url("/fonts/A2\ Standard\ Sans\ Cond\ Regular.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: A2StandardSansCond;
+  src: url("/fonts/A2\ Standard\ Sans\ Cond\ Medium.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  font-family: A2StandardSans, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 0;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: A2StandardSans, serif, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
