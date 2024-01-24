@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import TourData from "../assets/merch.csv";
-import Papa, { ParseResult } from "papaparse"
+import Papa from "papaparse"
 import MerchItem from './MerchItem';
 
 interface MerchData {
@@ -9,7 +9,7 @@ interface MerchData {
     link: string;
 }
 
-const Shop = () => {
+const Shop: React.FC = () => {
     const [csvData, setCsvData] = useState<MerchData[]>([]);
     
     useEffect(() => {

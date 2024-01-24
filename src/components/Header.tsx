@@ -3,7 +3,7 @@ import LongLogo from '../assets/logos/HFV Logo_Alt Long_Reverse.svg?react'
 import '../styles.scss'
 
 
-export const Header = () =>  {
+export const Header: React.FC = () =>  {
 
   const calculateLeft = () => {
     if (window.screen.width < 600)

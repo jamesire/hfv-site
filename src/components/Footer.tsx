@@ -9,7 +9,7 @@ const INSTGRAM_URL = "https://www.instagram.com/hfv_lk";
 const BANDCAMP_URL = "https://hisfathersvoice.bandcamp.com/";
 const TWITTER_URL = "https://www.twitter.com/hfv_lk";
 
-export const Footer = () =>  {
+export const Footer: React.FC = () =>  {
   return (
     <div className='footer'>
         <a rel="noreferrer" target='_blank' href={SPOTIFY_URL}><FontAwesomeIcon className='icon' icon={faSpotify}></FontAwesomeIcon></a>

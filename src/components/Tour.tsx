@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Papa, { ParseResult } from "papaparse"
+import Papa from "papaparse"
 import TourData from "../assets/shows.csv";
 import Show from './Show';
 
@@ -11,7 +11,7 @@ interface ShowData {
     ticket_link: string;
 }
 
-const Tour = () => {
+const Tour: React.FC = () => {
 
     const [csvData, setCsvData] = useState<ShowData[]>([]);
     
