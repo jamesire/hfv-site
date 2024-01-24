@@ -2,7 +2,7 @@ import React from 'react'
 import ReactPlayer from "react-player";
 import '../styles.scss';
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <div className='home'>
         <div className='video-container'>

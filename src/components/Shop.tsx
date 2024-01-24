@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import TourData from "../assets/merch.csv";
+import MerchData from '../assets/merch.csv';
 import Papa from "papaparse"
 import MerchItem from './MerchItem';
 
@@ -17,7 +17,7 @@ const Shop: React.FC = () => {
     }, []);
 
     const fetchCsvData = async () => {
-        Papa.parse(TourData, {
+        Papa.parse(MerchData, {
             header: true,
             download: true,
             skipEmptyLines: true,
