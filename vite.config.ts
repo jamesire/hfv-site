@@ -8,5 +8,8 @@ export default defineConfig({
   assetsInclude: ["**/*.csv"],
   build: {
     chunkSizeWarningLimit: 1600
+  },
+  server: {
+    port: 8080
   }
 })
